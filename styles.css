@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.images {
+  margin: 10px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.images img {
+  max-height: 100%;
+  display: none;
+}
+
+.images .active {
+  display: block;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin: 0 10px;
+  width: 60px;
+  height: 30px;
+}
